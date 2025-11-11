@@ -372,7 +372,7 @@ a {
   margin: 0;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.02em !important;
   color: #f4f4fd;
 }
 
@@ -382,7 +382,7 @@ a {
   color: #ffffff;
 }
 
-.footer .social-list {
+.social-list {
   display: flex;
   gap: 16px;
 }
