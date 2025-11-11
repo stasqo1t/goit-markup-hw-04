@@ -160,6 +160,8 @@ a {
   background-position: center;
   background-size: cover;
   color: #ffffff;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 
 .hero-title {
@@ -269,10 +271,10 @@ a {
   letter-spacing: 0.02em;
 }
 
-.social-list {
+.team .social-list {
   display: flex;
   justify-content: center;
-  gap: 16px;
+  gap: 24px;
 }
 
 .social-link {
@@ -380,7 +382,7 @@ a {
   color: #ffffff;
 }
 
-.social-list {
+.footer .social-list {
   display: flex;
   gap: 16px;
 }
