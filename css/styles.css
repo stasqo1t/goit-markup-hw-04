@@ -376,17 +376,16 @@ a {
   color: #f4f4fd;
 }
 
-.footer p.footer-text {
-  letter-spacing: 0.02em !important;
-}
-
 .footer-social-title {
   margin: 0 0 16px;
   font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   color: #ffffff;
 }
 
-.social-list {
+.footer .social-list {
   display: flex;
   gap: 16px;
 }
@@ -401,7 +400,7 @@ a {
   background-color: #31d0aa;
 }
 
-.social-icon {
+.footer .social-icon {
   fill: #f4f4fd;
   width: 24px;
   height: 24px;
